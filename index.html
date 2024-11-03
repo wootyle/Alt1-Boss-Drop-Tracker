@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt1 Boss Drop Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Dropdown to select a boss -->
+        <h1>Boss Drop Tracker</h1>
+        <label for="bossSelect">Select a Boss:</label>
+        <select id="bossSelect">
+            <option value="">--Choose a Boss--</option>
+            <!-- Options will be populated here -->
+        </select>
+
+        <!-- Section to display unique drops for the selected boss -->
+        <div id="dropList">
+            <h2>Unique Drops</h2>
+            <ul id="drops">
+                <!-- Unique drop items will appear here dynamically -->
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="bossesData.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

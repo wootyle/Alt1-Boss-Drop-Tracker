@@ -1,0 +1,17 @@
+/* Basic styling for obtained items */
+.obtained {
+    text-decoration: line-through;
+    color: green;
+}
+
+.drop-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Space between image and text */
+}
+
+.drop-image {
+    width: 40px;  /* Adjust size as needed */
+    height: 40px;
+    border-radius: 5px;  /* Optional: Add a rounded effect */
+}
