@@ -1,7 +1,6 @@
 {
-    "name": "Boss Drop Tracker",
-    "description": "Tracks boss drops for RuneScape 3",
-    "version": "1.0.0",
-    "main": "index.html"
+    "appname": "Boss Drop Tracker",
+    "description": "Track boss drops for RuneScape 3",
+    "url": "https://username.github.io/repository-name",
+    "categories": ["tools", "tracker"]
   }
-  
