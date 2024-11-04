@@ -1,17 +1,197 @@
-/* Basic styling for obtained items */
-.obtained {
-    text-decoration: line-through;
-    color: green;
+/* Global Styles */
+body {
+    background-image: url('images/runescape-bg.png'); /* Your background image path */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    margin: 0; /* Remove default margin to ensure the image covers the whole area */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    overflow: hidden; /* Hide overflow, preventing the window from scrolling */
 }
 
+h1, h2 {
+    color: #e5e6eb; /* Common color for headers */
+    text-align: center; /* Center align headers */
+}
+
+/* Layout for the entire app */
+#app {
+    display: flex; /* Use flexbox to layout sidebar and main content */
+    height: calc(100vh - 60px); /* Adjust height for header (change 60px if header height changes) */
+    overflow: hidden; /* Prevent scrolling in the app area */
+}
+
+/* Sidebar Styles */
+.sidebar-container {
+    width: 200px; /* Fixed width for the sidebar */
+    padding: 10px; /* Space inside the sidebar */
+    background-image: url('images/runescape-bg.png'); /* Sidebar background */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    margin-bottom: 5px; /* Optional: Add bottom margin */
+    box-shadow: 2px 0 5px #0000001a; /* Subtle shadow effect */
+}
+
+#sidebar {
+    height: calc(100% - 10px); /* Full height of the sidebar container minus padding */
+    overflow-y: auto; /* Make it scrollable */
+    padding-bottom: 5px; /* Space at the bottom */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+
+#sidebar h2 {
+    font-size: 18px; /* Font size for sidebar title */
+}
+
+/* Boss List Styles */
+#bossList {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#bossList li {
+    padding: 8px 10px; /* Padding for list items */
+    cursor: pointer; /* Pointer cursor */
+    border-bottom: 1px solid #ddd; /* Separator line between items */
+}
+
+#bossList li:hover {
+    background-color: #e0e0e0; /* Background color on hover */
+}
+
+/* Sidebar Item Styling */
+.boss-item {
+    color: #ffffff; /* Default text color */
+    padding: 10px; /* Padding for items */
+}
+
+/* Hover effect */
+.boss-item:hover,
+.boss-item.selected { /* Apply styles on hover and when selected */
+    color: #ffcc00; /* Highlight color */
+    background-image: url('images/runescape-bg-bright.png'); /* Background on hover */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
+
+/* Distinguish selected item */
+.boss-item.selected {
+    font-weight: bold; /* Makes selected item stand out */
+}
+
+/* Main Content Styles */
+#dropList {
+    flex-grow: 1; /* Allow main content to grow */
+    margin-left: 10px; /* Space between sidebar and main content */
+    padding: 10px; /* Padding for main content */
+}
+
+#drops {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns of equal width */
+    gap: 10px; /* Space between grid items */
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Drop Item Styles */
 .drop-item {
     display: flex;
     align-items: center;
-    gap: 10px;  /* Space between image and text */
+    justify-content: center; /* Center the image within the drop item */
+    gap: 10px; /* Space between image and text */
+    border: 2px solid #2b3a42; /* Border color and style */
+    padding: 3px; /* Space inside the border */
+    margin: 0; /* Space between items */
+    width: 45px; /* Fixed width for the box */
+    height: 45px; /* Fixed height for the box */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-image: url('images/runescape-bg-bright.png'); /* Set the background image */
+    background-size: cover; /* Ensure the background covers the box */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
 }
 
+/* Image within drop items */
 .drop-image {
-    width: 40px;  /* Adjust size as needed */
-    height: 40px;
-    border-radius: 5px;  /* Optional: Add a rounded effect */
+    max-width: 100%; /* Allow the image to scale down */
+    max-height: 100%; /* Allow the image to scale down */
+    width: 45px; /* Set a fixed width */
+    height: 45px; /* Set a fixed height */
+    object-fit: contain; /* Maintain aspect ratio while fitting within the box */
+}
+
+/* Drop Text Styles */
+.drop-text {
+    display: none; /* Hide text by default */
+    position: absolute; /* Position it over the image */
+    bottom: 0; /* Adjust as needed */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it */
+    background-color: rgba(0, 0, 0, 0.7); /* Background for visibility */
+    color: white; /* Text color */
+    padding: 2px; /* Add some padding */
+    border-radius: 3px; /* Rounded corners */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.drop-item:hover .drop-text {
+    display: block; /* Show text on hover */
+}
+
+/* Header Styles */
+.header {
+    position: relative; /* Position relative for the pseudo-element */
+    width: 100%; /* Full width of the header */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Adjust padding above and below the header text */
+}
+
+.header::after {
+    content: ''; /* Required for pseudo-element */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Position at the bottom of the header */
+    height: 5px; /* Height of the line (border) */
+    background-image: url('images/runescape-bg-border.png'); /* Your border image */
+    background-size: auto; /* Ensure the image covers the width */
+    margin-top: 10px; /* Add space above the line */
+}
+
+#bossHeader {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+/* Basic styling for obtained items */
+/* Grey-out effect for non-obtained items */
+.greyed-out {
+    filter: grayscale(100%); /* Apply grayscale filter */
+    opacity: 0.3; /* Make it semi-transparent */
+    transition: filter 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.selected-counter {
+    font-size: 14px; /* Smaller font size */
+    color: #e5e6eb; /* Match the header color */
+    margin-left: 10px; /* Space between boss name and counter */
+    vertical-align: middle; /* Align vertically with the boss name */
+}
+
+#tracker {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 20px;
+    text-align: left;
 }
