@@ -37,11 +37,12 @@ h1, h2 {
     height: calc(100% - 10px); /* Full height of the sidebar container minus padding */
     overflow-y: auto; /* Make it scrollable */
     padding-bottom: 20px; /* Space at the bottom */
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    scrollbar-width: none !important; /* Hide scrollbar in Firefox */
 }
 
-.sidebar::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+/* Hide scrollbar in WebKit browsers (Chrome, Safari, Edge) */
+#sidebar::-webkit-scrollbar {
+    display: none !important;
 }
 
 #sidebar h2 {
