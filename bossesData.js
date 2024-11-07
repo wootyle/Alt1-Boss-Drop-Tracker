@@ -193,7 +193,7 @@ const bosses = {
         { "name": "Memory Dowser", "image": "images/The Gate of Elidinis/Memory_dowser.png" },
         { "name": "Scripture of Elidinis", "image": "images/The Gate of Elidinis/Scripture_of_Elidinis.png" },
         { "name": "Latent Offering", "image": "images/The Gate of Elidinis/Latent_Offering.png" },
-        { "name": "After The Flood", "image": "images/The Gate of Elidinis/After_The_flood.png" },
+        { "name": "After The Flood", "image": "images/The Gate of Elidinis/After_The_Flood.png" },
         { "name": "Eclipsed Soul Prayer Codex", "image": "images/The Gate of Elidinis/Eclipsed_Soul_prayer_codex.png" },
         { "name": "Edie", "image": "images/The Gate of Elidinis/Edie.png" }
     ],    
@@ -559,10 +559,10 @@ const bosses = {
     
     "TzTok-Jad and Har-Aken": [
         { "name": "Fire Cape", "image": "images/TzTok-Jad and Har-Aken/Fire_cape.png" },
-        { "name": "TokHaar-Kal-Ket", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Ket.png" },
-        { "name": "TokHaar-Kal-Mej", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Mej.png" },
-        { "name": "TokHaar-Kal-Xil", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Xil.png" },
-        { "name": "TokHaar-Kal-Mor", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Mor.png" },
+        { "name": "TokHaar-Kal-Ket", "image": "images/TzTok-Jad and Har-Aken/TokHaar-Kal-Ket.png" },
+        { "name": "TokHaar-Kal-Mej", "image": "images/TzTok-Jad and Har-Aken/TokHaar-Kal-Mej.png" },
+        { "name": "TokHaar-Kal-Xil", "image": "images/TzTok-Jad and Har-Aken/TokHaar-Kal-Xil.png" },
+        { "name": "TokHaar-Kal-Mor", "image": "images/TzTok-Jad and Har-Aken/TokHaar-Kal-Mor.png" },
         { "name": "Shrimpy", "image": "images/TzTok-Jad and Har-Aken/Shrimpy.png" }
     ],    
     
