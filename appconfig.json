@@ -1,7 +1,16 @@
 {
-  "appname": "Boss Drop Tracker",
-  "description": "Track boss drops for RuneScape 3",
-  "url": "https://wootyle.github.io/Alt1-Boss-Drop-Tracker/index.html",
-  "icon": "https://wootyle.github.io/Alt1-Boss-Drop-Tracker/images/icon.png",
-  "categories": ["tools", "tracker"]
+  "appName": "Boss Drop Tracker",
+  "description": "Track Boss Logs",
+  "appUrl": "./index.html",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./images/icon.png",
+  "defaultWidth": 665,
+  "defaultHeight": 603,
+  "minWidth": 250,
+  "minHeight": 250,
+  "maxWidth": 700,
+  "maxHeight": 700,
+  "requestHandlers": [],
+  "activators": [],
+  "permissions": "overlay"
 }
