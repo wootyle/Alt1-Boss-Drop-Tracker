@@ -29,14 +29,14 @@ h1, h2 {
     background-repeat: repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed during scrolling */
-    margin-bottom: 5px; /* Optional: Add bottom margin */
+    margin-bottom: 40px; /* Optional: Add bottom margin */
     box-shadow: 2px 0 5px #0000001a; /* Subtle shadow effect */
 }
 
 #sidebar {
     height: calc(100% - 10px); /* Full height of the sidebar container minus padding */
     overflow-y: auto; /* Make it scrollable */
-    padding-bottom: 5px; /* Space at the bottom */
+    padding-bottom: 20px; /* Space at the bottom */
     scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
 
