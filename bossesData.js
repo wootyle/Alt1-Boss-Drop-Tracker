@@ -20,16 +20,16 @@ const bosses = {
     "Arch-Glacor": [
         { "name": "Glacor Remnants", "image": "images/Arch-Glacor/Glacor_remnants.png" },
         { "name": "Dark Nilas", "image": "images/Arch-Glacor/Dark_nilas.png" },
-        { "name": "Frozen Core of Leng", "image": "images/Arch-Glacor/Frozen_core_of_leng.png" },
+        { "name": "Frozen Core of Leng", "image": "images/Arch-Glacor/Frozen_core_of_Leng.png" },
         { "name": "Leng Artefact", "image": "images/Arch-Glacor/Leng_artefact.png" },
         { "name": "Dark Ice Shard", "image": "images/Arch-Glacor/Dark_ice_shard.png" },
-        { "name": "Dark Shard of Leng", "image": "images/Arch-Glacor/Dark_shard_of_leng.png" },
+        { "name": "Dark Shard of Leng", "image": "images/Arch-Glacor/Dark_Shard_of_Leng.png" },
         { "name": "Dark Ice Sliver", "image": "images/Arch-Glacor/Dark_ice_sliver.png" },
-        { "name": "Dark Sliver of Leng", "image": "images/Arch-Glacor/Dark_sliver_of_leng.png" },
-        { "name": "Scripture of Wen", "image": "images/Arch-Glacor/Scripture_of_wen.png" },
-        { "name": "Glacor's Adornment", "image": "images/Arch-Glacor/Glacors_adornment.png" },
-        { "name": "Arch-Glacor's Adornment", "image": "images/Arch-Glacor/Arch_glacors_adornment.png" },
-        { "name": "Ur-Glacor's Adornment", "image": "images/Arch-Glacor/Ur_glacors_adornment.png" },
+        { "name": "Dark Sliver of Leng", "image": "images/Arch-Glacor/Dark_Sliver_of_Leng.png" },
+        { "name": "Scripture of Wen", "image": "images/Arch-Glacor/Scripture_of_Wen.png" },
+        { "name": "Glacor's Adornment", "image": "images/Arch-Glacor/Glacors_Adornment.png" },
+        { "name": "Arch-Glacor's Adornment", "image": "images/Arch-Glacor/Arch_Glacors_Adornment.png" },
+        { "name": "Ur-Glacor's Adornment", "image": "images/Arch-Glacor/Ur_Glacors_Adornment.png" },
         { "name": "Gladys", "image": "images/Arch-Glacor/Gladys.png" }
     ],
     
@@ -131,15 +131,15 @@ const bosses = {
         { "name": "Godsword Shard 3", "image": "images/Commander Zilyana/Godsword_shard_3.png" },
         { "name": "Saradomin Sword", "image": "images/Commander Zilyana/Saradomin_sword.png" },
         { "name": "Armadyl Crossbow", "image": "images/Commander Zilyana/Armadyl_crossbow.png" },
-        { "name": "Off-Hand Armadyl Crossbow", "image": "images/Commander Zilyana/Off-hand_armadyl_crossbow.png" },
-        { "name": "Warpriest of Saradomin Helm", "image": "images/Commander Zilyana/Warpriest_of_saradomin_helm.png" },
-        { "name": "Warpriest of Saradomin Cape", "image": "images/Commander Zilyana/Warpriest_of_saradomin_cape.png" },
-        { "name": "Warpriest of Saradomin Cuirass", "image": "images/Commander Zilyana/Warpriest_of_saradomin_cuirass.png" },
-        { "name": "Warpriest of Saradomin Greaves", "image": "images/Commander Zilyana/Warpriest_of_saradomin_greaves.png" },
-        { "name": "Warpriest of Saradomin Gauntlets", "image": "images/Commander Zilyana/Warpriest_of_saradomin_gauntlets.png" },
-        { "name": "Warpriest of Saradomin Boots", "image": "images/Commander Zilyana/Warpriest_of_saradomin_boots.png" },
-        { "name": "Zilyana's Notes", "image": "images/Commander Zilyana/Zilyana's_notes.png" },
-        { "name": "Commander Miniana", "image": "images/Commander Zilyana/Commander_miniana.png" }
+        { "name": "Off-Hand Armadyl Crossbow", "image": "images/Commander Zilyana/Off-hand_Armadyl_crossbow.png" },
+        { "name": "Warpriest of Saradomin Helm", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_helm.png" },
+        { "name": "Warpriest of Saradomin Cape", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_cape.png" },
+        { "name": "Warpriest of Saradomin Cuirass", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_cuirass.png" },
+        { "name": "Warpriest of Saradomin Greaves", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_greaves.png" },
+        { "name": "Warpriest of Saradomin Gauntlets", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_gauntlets.png" },
+        { "name": "Warpriest of Saradomin Boots", "image": "images/Commander Zilyana/Warpriest_of_Saradomin_boots.png" },
+        { "name": "Zilyana's Notes", "image": "images/Commander Zilyana/Zilyana's_Notes.png" },
+        { "name": "Commander Miniana", "image": "images/Commander Zilyana/Commander_Miniana.png" }
     ],    
 
     "Corporeal Beast": [
@@ -161,8 +161,8 @@ const bosses = {
         { "name": "Croesus Sporehammer", "image": "images/Croesus/Croesus_sporehammer.png" },
         { "name": "Croesus Foultorch", "image": "images/Croesus/Croesus_foultorch.png" },
         { "name": "Croesus Spore Sack", "image": "images/Croesus/Croesus_spore_sack.png" },
-        { "name": "Scripture of Bik", "image": "images/Croesus/Scripture_of_bik.png" },
-        { "name": "Little Sus", "image": "images/Croesus/Little_sus.png" }
+        { "name": "Scripture of Bik", "image": "images/Croesus/Scripture_of_Bik.png" },
+        { "name": "Little Sus", "image": "images/Croesus/Little_Sus.png" }
     ],    
 
     "Dagannoth Kings": [
@@ -173,17 +173,17 @@ const bosses = {
         { "name": "Mud Battlestaff", "image": "images/Dagannoth Kings/Mud_battlestaff.png" },
         { "name": "Dragon Hatchet", "image": "images/Dagannoth Kings/Dragon_hatchet.png" },
         { "name": "Seercull", "image": "images/Dagannoth Kings/Seercull.png" },
-        { "name": "Prime Hatchling", "image": "images/Dagannoth Kings/Prime_hatchling.png" },
-        { "name": "Rex Hatchling", "image": "images/Dagannoth Kings/Rex_hatchling.png" },
-        { "name": "Supreme Hatchling", "image": "images/Dagannoth Kings/Supreme_hatchling.png" }
+        { "name": "Prime Hatchling", "image": "images/Dagannoth Kings/Prime_Hatchling.png" },
+        { "name": "Rex Hatchling", "image": "images/Dagannoth Kings/Rex_Hatchling.png" },
+        { "name": "Supreme Hatchling", "image": "images/Dagannoth Kings/Supreme_Hatchling.png" }
     ],    
 
     "Dragonkin Laboratory": [
-        { "name": "Greater Flurry Ability Codex", "image": "images/Dragonkin Laboratory/Greater_flurry_ability_codex.png" },
-        { "name": "Greater Fury Ability Codex", "image": "images/Dragonkin Laboratory/Greater_fury_ability_codex.png" },
-        { "name": "Greater Barge Ability Codex", "image": "images/Dragonkin Laboratory/Greater_barge_ability_codex.png" },
-        { "name": "Redacted Dragonkin Research", "image": "images/Dragonkin Laboratory/Redacted_dragonkin_research.png" },
-        { "name": "Diary of an Overzealous Gnome", "image": "images/Dragonkin Laboratory/Diary_of_an_overzealous_gnome.png" },
+        { "name": "Greater Flurry Ability Codex", "image": "images/Dragonkin Laboratory/Greater_Flurry_ability_codex.png" },
+        { "name": "Greater Fury Ability Codex", "image": "images/Dragonkin Laboratory/Greater_Fury_ability_codex.png" },
+        { "name": "Greater Barge Ability Codex", "image": "images/Dragonkin Laboratory/Greater_Barge_ability_codex.png" },
+        { "name": "Redacted Dragonkin Research", "image": "images/Dragonkin Laboratory/Redacted_Dragonkin_Research.png" },
+        { "name": "Diary of an Overzealous Gnome", "image": "images/Dragonkin Laboratory/Diary_of_an_Overzealous_Gnome.png" },
         { "name": "Draconic Energy", "image": "images/Dragonkin Laboratory/Draconic_energy.png" },
         { "name": "Bisdi", "image": "images/Dragonkin Laboratory/Bisdi.png" }
     ],    
@@ -191,10 +191,10 @@ const bosses = {
     "The Gate of Elidinis": [
         { "name": "Runic Attuner", "image": "images/The Gate of Elidinis/Runic_attuner.png" },
         { "name": "Memory Dowser", "image": "images/The Gate of Elidinis/Memory_dowser.png" },
-        { "name": "Scripture of Elidinis", "image": "images/The Gate of Elidinis/Scripture_of_elidinis.png" },
-        { "name": "Latent Offering", "image": "images/The Gate of Elidinis/Latent_offering.png" },
-        { "name": "After The Flood", "image": "images/The Gate of Elidinis/After_the_flood.png" },
-        { "name": "Eclipsed Soul Prayer Codex", "image": "images/The Gate of Elidinis/Eclipsed_soul_prayer_codex.png" },
+        { "name": "Scripture of Elidinis", "image": "images/The Gate of Elidinis/Scripture_of_Elidinis.png" },
+        { "name": "Latent Offering", "image": "images/The Gate of Elidinis/Latent_Offering.png" },
+        { "name": "After The Flood", "image": "images/The Gate of Elidinis/After_The_flood.png" },
+        { "name": "Eclipsed Soul Prayer Codex", "image": "images/The Gate of Elidinis/Eclipsed_Soul_prayer_codex.png" },
         { "name": "Edie", "image": "images/The Gate of Elidinis/Edie.png" }
     ],    
     
@@ -209,14 +209,14 @@ const bosses = {
         { "name": "Godsword Shard 2", "image": "images/General Graardor/Godsword_shard_2.png" },
         { "name": "Godsword Shard 3", "image": "images/General Graardor/Godsword_shard_3.png" },
         { "name": "Bandos Warshield", "image": "images/General Graardor/Bandos_warshield.png" },
-        { "name": "Warpriest of Bandos Helm", "image": "images/General Graardor/Warpriest_of_bandos_helm.png" },
-        { "name": "Warpriest of Bandos Cape", "image": "images/General Graardor/Warpriest_of_bandos_cape.png" },
-        { "name": "Warpriest of Bandos Cuirass", "image": "images/General Graardor/Warpriest_of_bandos_cuirass.png" },
-        { "name": "Warpriest of Bandos Greaves", "image": "images/General Graardor/Warpriest_of_bandos_greaves.png" },
-        { "name": "Warpriest of Bandos Gauntlets", "image": "images/General Graardor/Warpriest_of_bandos_gauntlets.png" },
-        { "name": "Warpriest of Bandos Boots", "image": "images/General Graardor/Warpriest_of_bandos_boots.png" },
-        { "name": "The Glory of General Graardor", "image": "images/General Graardor/The_glory_of_general_graardor.png" },
-        { "name": "General Awwdor", "image": "images/General Graardor/General_awwdor.png" }
+        { "name": "Warpriest of Bandos Helm", "image": "images/General Graardor/Warpriest_of_Bandos_helm.png" },
+        { "name": "Warpriest of Bandos Cape", "image": "images/General Graardor/Warpriest_of_Bandos_cape.png" },
+        { "name": "Warpriest of Bandos Cuirass", "image": "images/General Graardor/Warpriest_of_Bandos_cuirass.png" },
+        { "name": "Warpriest of Bandos Greaves", "image": "images/General Graardor/Warpriest_of_Bandos_greaves.png" },
+        { "name": "Warpriest of Bandos Gauntlets", "image": "images/General Graardor/Warpriest_of_Bandos_gauntlets.png" },
+        { "name": "Warpriest of Bandos Boots", "image": "images/General Graardor/Warpriest_of_Bandos_boots.png" },
+        { "name": "The Glory of General Graardor", "image": "images/General Graardor/The_Glory_of_General_Graardor.png" },
+        { "name": "General Awwdor", "image": "images/General Graardor/General_Awwdor.png" }
     ],    
     
     "Giant Mole": [
@@ -226,7 +226,7 @@ const bosses = {
     ],
     
     "Gregorovic": [
-        { name: "Crest of Sliske", image: "images/Gregorovic/Crest_of_sliske.png" },
+        { name: "Crest of Sliske", image: "images/Gregorovic/Crest_of_Sliske.png" },
         { name: "Dormant Anima Core Helm", image: "images/Gregorovic/Dormant_anima_core_helm.png" },
         { name: "Dormant Anima Core Body", image: "images/Gregorovic/Dormant_anima_core_body.png" },
         { name: "Dormant Anima Core Legs", image: "images/Gregorovic/Dormant_anima_core_legs.png" },
@@ -237,13 +237,13 @@ const bosses = {
     ],
     
     "Helwyr": [
-        { "name": "Crest of Seren", "image": "images/Helwyr/Crest_of_seren.png" },
+        { "name": "Crest of Seren", "image": "images/Helwyr/Crest_of_Seren.png" },
         { "name": "Dormant Anima Core Helm", "image": "images/Helwyr/Dormant_anima_core_helm.png" },
         { "name": "Dormant Anima Core Body", "image": "images/Helwyr/Dormant_anima_core_body.png" },
         { "name": "Dormant Anima Core Legs", "image": "images/Helwyr/Dormant_anima_core_legs.png" },
         { "name": "Serenic Essence", "image": "images/Helwyr/Serenic_essence.png" },
-        { "name": "Wand of the Cywir Elders", "image": "images/Helwyr/Wand_of_the_cywir_elders.png" },
-        { "name": "Orb of the Cywir Elders", "image": "images/Helwyr/Orb_of_the_cywir_elders.png" },
+        { "name": "Wand of the Cywir Elders", "image": "images/Helwyr/Wand_of_the_Cywir_elders.png" },
+        { "name": "Orb of the Cywir Elders", "image": "images/Helwyr/Orb_of_the_Cywir_elders.png" },
         { "name": "Lilwyr", "image": "images/Helwyr/Lilwyr.png" }
     ],    
     
@@ -272,18 +272,18 @@ const bosses = {
     ],
     
     "Kerapac": [
-        { "name": "Fractured Armadyl Symbol", "image": "images/Kerapac/Fractured_armadyl_symbol.png" },
+        { "name": "Fractured Armadyl Symbol", "image": "images/Kerapac/Fractured_Armadyl_symbol.png" },
         { "name": "Fractured Stabilisation Gem", "image": "images/Kerapac/Fractured_stabilisation_gem.png" },
-        { "name": "Staff of Armadyl's Fractured Shaft", "image": "images/Kerapac/Staff_of_armadyl's_fractured_shaft.png" },
+        { "name": "Staff of Armadyl's Fractured Shaft", "image": "images/Kerapac/Staff_of_Armadyl's_fractured_shaft.png" },
         { "name": "Kerapac's Wrist Wraps", "image": "images/Kerapac/Kerapac's_wrist_wraps.png" },
-        { "name": "Greater Concentrated Blast Ability Codex", "image": "images/Kerapac/Greater_concentrated_blast_ability_codex.png" },
-        { "name": "Scripture of Jas", "image": "images/Kerapac/Scripture_of_jas.png" },
+        { "name": "Greater Concentrated Blast Ability Codex", "image": "images/Kerapac/Greater_Concentrated_blast_ability_codex.png" },
+        { "name": "Scripture of Jas", "image": "images/Kerapac/Scripture_of_Jas.png" },
         { "name": "Kerry", "image": "images/Kerapac/Kerry.png" }
     ],
     
     "King Black Dragon": [
-        { "name": "Dragon Rider Gloves", "image": "images/King Black Dragon/Dragon_rider_gloves.png" },
-        { "name": "Dragon Rider Boots", "image": "images/King Black Dragon/Dragon_rider_boots.png" },
+        { "name": "Dragon Rider Gloves", "image": "images/King Black Dragon/Dragon_Rider_gloves.png" },
+        { "name": "Dragon Rider Boots", "image": "images/King Black Dragon/Dragon_Rider_boots.png" },
         { "name": "Draconic Visage", "image": "images/King Black Dragon/Draconic_visage.png" },
         { "name": "King Black Dragon Head", "image": "images/King Black Dragon/King_black_dragon_head.png" },
         { "name": "Last Riders", "image": "images/King Black Dragon/Last_riders.png" },
@@ -303,13 +303,13 @@ const bosses = {
         { "name": "Godsword Shard 2", "image": "images/Kree'arra/Godsword_shard_2.png" },
         { "name": "Godsword Shard 3", "image": "images/Kree'arra/Godsword_shard_3.png" },
         { "name": "Armadyll Buckler", "image": "images/Kree'arra/Armadyl_buckler.png" },
-        { "name": "Warpriest of Armadyl Helm", "image": "images/Kree'arra/Warpriest_of_armadyl_helm.png" },
-        { "name": "Warpriest of Armadyl Cape", "image": "images/Kree'arra/Warpriest_of_armadyl_cape.png" },
-        { "name": "Warpriest of Armadyl Cuirass", "image": "images/Kree'arra/Warpriest_of_armadyl_cuirass.png" },
-        { "name": "Warpriest of Armadyl Greaves", "image": "images/Kree'arra/Warpriest_of_armadyl_greaves.png" },
-        { "name": "Warpriest of Armadyl Gauntlets", "image": "images/Kree'arra/Warpriest_of_armadyl_gauntlets.png" },
-        { "name": "Warpriest of Armadyl Boots", "image": "images/Kree'arra/Warpriest_of_armadyl_boots.png" },
-        { "name": "Armadyl's Assault", "image": "images/Kree'arra/Armadyl's_assault.png" },
+        { "name": "Warpriest of Armadyl Helm", "image": "images/Kree'arra/Warpriest_of_Armadyl_helm.png" },
+        { "name": "Warpriest of Armadyl Cape", "image": "images/Kree'arra/Warpriest_of_Armadyl_cape.png" },
+        { "name": "Warpriest of Armadyl Cuirass", "image": "images/Kree'arra/Warpriest_of_Armadyl_cuirass.png" },
+        { "name": "Warpriest of Armadyl Greaves", "image": "images/Kree'arra/Warpriest_of_Armadyl_greaves.png" },
+        { "name": "Warpriest of Armadyl Gauntlets", "image": "images/Kree'arra/Warpriest_of_Armadyl_gauntlets.png" },
+        { "name": "Warpriest of Armadyl Boots", "image": "images/Kree'arra/Warpriest_of_Armadyl_boots.png" },
+        { "name": "Armadyl's Assault", "image": "images/Kree'arra/Armadyl's_Assault.png" },
         { "name": "Chick'arra", "image": "images/Kree'arra/Chick'arra.png" }
     ],
     
@@ -326,14 +326,14 @@ const bosses = {
         { "name": "Zamorakian Spear", "image": "images/K'ril Tsutsaroth/Zamorakian_spear.png" },
         { "name": "Steam Battlestaff", "image": "images/K'ril Tsutsaroth/Steam_battlestaff.png" },
         { "name": "Ward of Subjugation", "image": "images/K'ril Tsutsaroth/Ward_of_subjugation.png" },
-        { "name": "Warpriest of Zamorak Helm", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_helm.png" },
-        { "name": "Warpriest of Zamorak Cape", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_cape.png" },
-        { "name": "Warpriest of Zamorak Cuirass", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_cuirass.png" },
-        { "name": "Warpriest of Zamorak Greaves", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_greaves.png" },
-        { "name": "Warpriest of Zamorak Gauntlets", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_gauntlets.png" },
-        { "name": "Warpriest of Zamorak Boots", "image": "images/K'ril Tsutsaroth/Warpriest_of_zamorak_boots.png" },
-        { "name": "Razulei's Tale", "image": "images/K'ril Tsutsaroth/Razulei's_tale.png" },
-        { "name": "K'ril Tinyroth", "image": "images/K'ril Tsutsaroth/K'ril_tinyroth.png" }
+        { "name": "Warpriest of Zamorak Helm", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_helm.png" },
+        { "name": "Warpriest of Zamorak Cape", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_cape.png" },
+        { "name": "Warpriest of Zamorak Cuirass", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_cuirass.png" },
+        { "name": "Warpriest of Zamorak Greaves", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_greaves.png" },
+        { "name": "Warpriest of Zamorak Gauntlets", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_gauntlets.png" },
+        { "name": "Warpriest of Zamorak Boots", "image": "images/K'ril Tsutsaroth/Warpriest_of_Zamorak_boots.png" },
+        { "name": "Razulei's Tale", "image": "images/K'ril Tsutsaroth/Razulei's_Tale.png" },
+        { "name": "K'ril Tinyroth", "image": "images/K'ril Tsutsaroth/K'ril_Tinyroth.png" }
     ],    
     
     "Legiones": [
@@ -343,32 +343,32 @@ const bosses = {
         { "name": "Ascension Signet IV", "image": "images/Legiones/Ascension_signet_IV.png" },
         { "name": "Ascension Signet V", "image": "images/Legiones/Ascension_signet_V.png" },
         { "name": "Ascension Signet VI", "image": "images/Legiones/Ascension_signet_VI.png" },
-        { "name": "Legio Primulus", "image": "images/Legiones/Legio_primulus.png" },
-        { "name": "Legio Secundulus", "image": "images/Legiones/Legio_secundulus.png" },
-        { "name": "Legio Tertiolus", "image": "images/Legiones/Legio_tertiolus.png" },
-        { "name": "Legio Quartulus", "image": "images/Legiones/Legio_quartulus.png" },
-        { "name": "Legio Quintulus", "image": "images/Legiones/Legio_quintulus.png" },
-        { "name": "Legio Sextulus", "image": "images/Legiones/Legio_sextulus.png" }
+        { "name": "Legio Primulus", "image": "images/Legiones/Legio_Primulus.png" },
+        { "name": "Legio Secundulus", "image": "images/Legiones/Legio_Secundulus.png" },
+        { "name": "Legio Tertiolus", "image": "images/Legiones/Legio_Tertiolus.png" },
+        { "name": "Legio Quartulus", "image": "images/Legiones/Legio_Quartulus.png" },
+        { "name": "Legio Quintulus", "image": "images/Legiones/Legio_Quintulus.png" },
+        { "name": "Legio Sextulus", "image": "images/Legiones/Legio_Sextulus.png" }
     ],
     
     "Liberation of Mazcab": [
-        { "name": "Achto Primeval Gloves", "image": "images/Liberation of Mazcab/Achto_primeval_gloves.png" },
-        { "name": "Achto Primeval Boots", "image": "images/Liberation of Mazcab/Achto_primeval_boots.png" },
-        { "name": "Achto Primeval Mask", "image": "images/Liberation of Mazcab/Achto_primeval_mask.png" },
-        { "name": "Achto Primeval Robe Legs", "image": "images/Liberation of Mazcab/Achto_primeval_robe_legs.png" },
-        { "name": "Achto Primeval Robe Top", "image": "images/Liberation of Mazcab/Achto_primeval_robe_top.png" },
-        { "name": "Achto Tempest Gloves", "image": "images/Liberation of Mazcab/Achto_tempest_gloves.png" },
-        { "name": "Achto Tempest Boots", "image": "images/Liberation of Mazcab/Achto_tempest_boots.png" },
-        { "name": "Achto Tempest Cowl", "image": "images/Liberation of Mazcab/Achto_tempest_cowl.png" },
-        { "name": "Achto Tempest Chaps", "image": "images/Liberation of Mazcab/Achto_tempest_chaps.png" },
-        { "name": "Achto Tempest Body", "image": "images/Liberation of Mazcab/Achto_tempest_body.png" },
-        { "name": "Achto Teralith Gauntlets", "image": "images/Liberation of Mazcab/Achto_teralith_gauntlets.png" },
-        { "name": "Achto Teralith Boots", "image": "images/Liberation of Mazcab/Achto_teralith_boots.png" },
-        { "name": "Achto Teralith Helmet", "image": "images/Liberation of Mazcab/Achto_teralith_helmet.png" },
-        { "name": "Achto Teralith Leggings", "image": "images/Liberation of Mazcab/Achto_teralith_leggings.png" },
-        { "name": "Achto Teralith Cuirass", "image": "images/Liberation of Mazcab/Achto_teralith_cuirass.png" },
+        { "name": "Achto Primeval Gloves", "image": "images/Liberation of Mazcab/Achto_Primeval_gloves.png" },
+        { "name": "Achto Primeval Boots", "image": "images/Liberation of Mazcab/Achto_Primeval_boots.png" },
+        { "name": "Achto Primeval Mask", "image": "images/Liberation of Mazcab/Achto_Primeval_mask.png" },
+        { "name": "Achto Primeval Robe Legs", "image": "images/Liberation of Mazcab/Achto_Primeval_robe_legs.png" },
+        { "name": "Achto Primeval Robe Top", "image": "images/Liberation of Mazcab/Achto_Primeval_robe_top.png" },
+        { "name": "Achto Tempest Gloves", "image": "images/Liberation of Mazcab/Achto_Tempest_gloves.png" },
+        { "name": "Achto Tempest Boots", "image": "images/Liberation of Mazcab/Achto_Tempest_boots.png" },
+        { "name": "Achto Tempest Cowl", "image": "images/Liberation of Mazcab/Achto_Tempest_cowl.png" },
+        { "name": "Achto Tempest Chaps", "image": "images/Liberation of Mazcab/Achto_Tempest_chaps.png" },
+        { "name": "Achto Tempest Body", "image": "images/Liberation of Mazcab/Achto_Tempest_body.png" },
+        { "name": "Achto Teralith Gauntlets", "image": "images/Liberation of Mazcab/Achto_Teralith_gauntlets.png" },
+        { "name": "Achto Teralith Boots", "image": "images/Liberation of Mazcab/Achto_Teralith_boots.png" },
+        { "name": "Achto Teralith Helmet", "image": "images/Liberation of Mazcab/Achto_Teralith_helmet.png" },
+        { "name": "Achto Teralith Leggings", "image": "images/Liberation of Mazcab/Achto_Teralith_leggings.png" },
+        { "name": "Achto Teralith Cuirass", "image": "images/Liberation of Mazcab/Achto_Teralith_cuirass.png" },
         { "name": "Mazcab Ability Codex", "image": "images/Liberation of Mazcab/Mazcab_ability_codex.png" },
-        { "name": "Lil' Tuzzy", "image": "images/Liberation of Mazcab/Lil'_tuzzy.png" },
+        { "name": "Lil' Tuzzy", "image": "images/Liberation of Mazcab/Lil'_Tuzzy.png" },
         { "name": "Diddyzag", "image": "images/Liberation of Mazcab/Diddyzag.png" },
         { "name": "Yakaminu", "image": "images/Liberation of Mazcab/Yakaminu.png" }
     ],    
@@ -376,12 +376,12 @@ const bosses = {
     "The Magister": [
         { "name": "Phylactery", "image": "images/The Magister/Phylactery.png" },
         { "name": "Gloves of Passage", "image": "images/The Magister/Gloves_of_passage.png" },
-        { "name": "The Minister", "image": "images/The Magister/The_minister.png" },
-        { "name": "The Magister's Journal #1", "image": "images/The Magister/The_magister's_journal_1.png" },
-        { "name": "The Magister's Journal #2", "image": "images/The Magister/The_magister's_journal_2.png" },
-        { "name": "The Magister's Journal #3", "image": "images/The Magister/The_magister's_journal_3.png" },
-        { "name": "The Magister's Journal #4", "image": "images/The Magister/The_magister's_journal_4.png" },
-        { "name": "The Magister's Journal #5", "image": "images/The Magister/The_magister's_journal_5.png" }
+        { "name": "The Minister", "image": "images/The Magister/The_Minister.png" },
+        { "name": "The Magister's Journal #1", "image": "images/The Magister/The_Magister's_Journal_1.png" },
+        { "name": "The Magister's Journal #2", "image": "images/The Magister/The_Magister's_Journal_2.png" },
+        { "name": "The Magister's Journal #3", "image": "images/The Magister/The_Magister's_Journal_3.png" },
+        { "name": "The Magister's Journal #4", "image": "images/The Magister/The_Magister's_Journal_4.png" },
+        { "name": "The Magister's Journal #5", "image": "images/The Magister/The_Magister's_Journal_5.png" }
     ],
     
     "Nex": [
@@ -404,7 +404,7 @@ const bosses = {
         { "name": "Virtus Book", "image": "images/Nex/Virtus_book.png" },
         { "name": "Virtus Wand", "image": "images/Nex/Virtus_wand.png" },
         { "name": "Ancient Emblem", "image": "images/Nex/Ancient_emblem.png" },
-        { "name": "Nex's Followers", "image": "images/Nex/Nex's_followers.png" },
+        { "name": "Nex's Followers", "image": "images/Nex/Nex's_Followers.png" },
         { "name": "Nexterminator", "image": "images/Nex/Nexterminator.png" }
     ],    
     
@@ -417,8 +417,8 @@ const bosses = {
         { "name": "Intricate Ice Chest", "image": "images/Nex Angel of Death/Intricate_ice_chest.png" },
         { "name": "Intricate Smoke-Shrouded Chest", "image": "images/Nex Angel of Death/Intricate_smoke-shrouded_chest.png" },
         { "name": "Reeves", "image": "images/Nex Angel of Death/Reeves.png" },
-        { "name": "The Promised Gift", "image": "images/Nex Angel of Death/The_promised_gift.png" },
-        { "name": "The Praesul", "image": "images/Nex Angel of Death/The_praesul.png" }
+        { "name": "The Promised Gift", "image": "images/Nex Angel of Death/The_Promised_Gift.png" },
+        { "name": "The Praesul", "image": "images/Nex Angel of Death/The_Praesul.png" }
     ],
     
     "Queen Black Dragon": [
@@ -429,7 +429,7 @@ const bosses = {
         { "name": "Royal Torsion Spring", "image": "images/Queen Black Dragon/Royal_torsion_spring.png" },
         { "name": "Draconic Visage", "image": "images/Queen Black Dragon/Draconic_visage.png" },
         { "name": "Dragonbone Upgrade Kit", "image": "images/Queen Black Dragon/Dragonbone_upgrade_kit.png" },
-        { "name": "Queen Black Dragonling", "image": "images/Queen Black Dragon/Queen_black_dragonling.png" },
+        { "name": "Queen Black Dragonling", "image": "images/Queen Black Dragon/Queen_Black_Dragonling.png" },
         { "name": "First Dragonkin Journal", "image": "images/Queen Black Dragon/First_dragonkin_journal.png" },
         { "name": "Second Dragonkin Journal", "image": "images/Queen Black Dragon/Second_dragonkin_journal.png" },
         { "name": "Third Dragonkin Journal", "image": "images/Queen Black Dragon/Third_dragonkin_journal.png" },
@@ -441,8 +441,8 @@ const bosses = {
         { "name": "Blast Diffusion Boots", "image": "images/Raksha/Blast_diffusion_boots.png" },
         { "name": "Fleeting Boots", "image": "images/Raksha/Fleeting_boots.png" },
         { "name": "Shadow Spike", "image": "images/Raksha/Shadow_spike.png" },
-        { "name": "Greater Ricochet Ability Codex", "image": "images/Raksha/Greater_ricochet_ability_codex.png" },
-        { "name": "Greater Chain Ability Codex", "image": "images/Raksha/Greater_chain_ability_codex.png" },
+        { "name": "Greater Ricochet Ability Codex", "image": "images/Raksha/Greater_Ricochet_ability_codex.png" },
+        { "name": "Greater Chain Ability Codex", "image": "images/Raksha/Greater_Chain_ability_codex.png" },
         { "name": "Divert Ability Codex", "image": "images/Raksha/Divert_ability_codex.png" },
         { "name": "Raklette", "image": "images/Raksha/Raklette.png" }
     ],    
@@ -450,11 +450,11 @@ const bosses = {
     "Rasial": [
         { "name": "Omni Guard", "image": "images/Rasial/Omni_guard.png" },
         { "name": "Soulbound Lantern", "image": "images/Rasial/Soulbound_lantern.png" },
-        { "name": "Crown of the First Necromancer", "image": "images/Rasial/Crown_of_the_first_necromancer.png" },
-        { "name": "Robe Top of the First Necromancer", "image": "images/Rasial/Robe_top_of_the_first_necromancer.png" },
-        { "name": "Robe Bottom of the First Necromancer", "image": "images/Rasial/Robe_bottom_of_the_first_necromancer.png" },
-        { "name": "Hand Wrap of the First Necromancer", "image": "images/Rasial/Hand_wrap_of_the_first_necromancer.png" },
-        { "name": "Foot Wraps of the First Necromancer", "image": "images/Rasial/Foot_wraps_of_the_first_necromancer.png" },
+        { "name": "Crown of the First Necromancer", "image": "images/Rasial/Crown_of_the_First_Necromancer.png" },
+        { "name": "Robe Top of the First Necromancer", "image": "images/Rasial/Robe_top_of_the_First_Necromancer.png" },
+        { "name": "Robe Bottom of the First Necromancer", "image": "images/Rasial/Robe_bottom_of_the_First_Necromancer.png" },
+        { "name": "Hand Wrap of the First Necromancer", "image": "images/Rasial/Hand_wrap_of_the_First_Necromancer.png" },
+        { "name": "Foot Wraps of the First Necromancer", "image": "images/Rasial/Foot_wraps_of_the_First_Necromancer.png" },
         { "name": "Miso", "image": "images/Rasial/Miso.png" }
     ],
     
@@ -463,10 +463,10 @@ const bosses = {
         { "name": "Savage Spear Shaft", "image": "images/Rex Matriarchs/Savage_spear_shaft.png" },
         { "name": "Savage Spear Cap", "image": "images/Rex Matriarchs/Savage_spear_cap.png" },
         { "name": "Savage Plume", "image": "images/Rex Matriarchs/Savage_plume.png" },
-        { "name": "Heart of the Archer", "image": "images/Rex Matriarchs/Heart_of_the_archer.png" },
-        { "name": "Heart of the Seer", "image": "images/Rex Matriarchs/Heart_of_the_seer.png" },
-        { "name": "Heart of the Warrior", "image": "images/Rex Matriarchs/Heart_of_the_warrior.png" },
-        { "name": "Heart of the Berserker", "image": "images/Rex Matriarchs/Heart_of_the_berserker.png" },
+        { "name": "Heart of the Archer", "image": "images/Rex Matriarchs/Heart_of_the_Archer.png" },
+        { "name": "Heart of the Seer", "image": "images/Rex Matriarchs/Heart_of_the_Seer.png" },
+        { "name": "Heart of the Warrior", "image": "images/Rex Matriarchs/Heart_of_the_Warrior.png" },
+        { "name": "Heart of the Berserker", "image": "images/Rex Matriarchs/Heart_of_the_Berserker.png" },
         { "name": "Bagra", "image": "images/Rex Matriarchs/Bagra.png" },
         { "name": "Corbi", "image": "images/Rex Matriarchs/Corbi.png" },
         { "name": "Pavo", "image": "images/Rex Matriarchs/Pavo.png" }
@@ -477,21 +477,21 @@ const bosses = {
         { "name": "Savage Spear Shaft", "image": "images/Rex Matriarchs Osseous/Savage_spear_shaft.png" },
         { "name": "Savage Spear Cap", "image": "images/Rex Matriarchs Osseous/Savage_spear_cap.png" },
         { "name": "Savage Plume", "image": "images/Rex Matriarchs Osseous/Savage_plume.png" },
-        { "name": "Heart of the Berserker", "image": "images/Rex Matriarchs Osseous/Heart_of_the_berserker.png" },
-        { "name": "Baby Osseous", "image": "images/Rex Matriarchs Osseous/Baby_osseous.png" },
+        { "name": "Heart of the Berserker", "image": "images/Rex Matriarchs Osseous/Heart_of_the_Berserker.png" },
+        { "name": "Baby Osseous", "image": "images/Rex Matriarchs Osseous/Baby_Osseous.png" },
         { "name": "Jail Cell Key", "image": "images/Rex Matriarchs Osseous/Jail_cell_key.png" },
         { "name": "Occultist's Ring", "image": "images/Rex Matriarchs Osseous/Occultist's_ring.png" }
     ],    
     
     "Sanctum of Rebirth": [
-        { "name": "Roar of Awakening", "image": "images/Sanctum of Rebirth/Roar_of_awakening.png" },
-        { "name": "Ode to Deceit", "image": "images/Sanctum of Rebirth/Ode_to_deceit.png" },
-        { "name": "Shard of Genesis Essence", "image": "images/Sanctum of Rebirth/Shard_of_genesis_essence.png" },
-        { "name": "Scripture of Amascut", "image": "images/Sanctum of Rebirth/Scripture_of_amascut.png" },
-        { "name": "Divine Rage Prayer Codex", "image": "images/Sanctum of Rebirth/Divine_rage_prayer_codex.png" },
-        { "name": "The Brood Mother", "image": "images/Sanctum of Rebirth/The_brood_mother.png" },
-        { "name": "The Beast of Darkness", "image": "images/Sanctum of Rebirth/The_beast_of_darkness.png" },
-        { "name": "Death and Devourers", "image": "images/Sanctum of Rebirth/Death_and_devourers.png" },
+        { "name": "Roar of Awakening", "image": "images/Sanctum of Rebirth/Roar_of_Awakening.png" },
+        { "name": "Ode to Deceit", "image": "images/Sanctum of Rebirth/Ode_to_Deceit.png" },
+        { "name": "Shard of Genesis Essence", "image": "images/Sanctum of Rebirth/Shard_of_Genesis_Essence.png" },
+        { "name": "Scripture of Amascut", "image": "images/Sanctum of Rebirth/Scripture_of_Amascut.png" },
+        { "name": "Divine Rage Prayer Codex", "image": "images/Sanctum of Rebirth/Divine_Rage_prayer_codex.png" },
+        { "name": "The Brood Mother", "image": "images/Sanctum of Rebirth/The_Brood_Mother.png" },
+        { "name": "The Beast of Darkness", "image": "images/Sanctum of Rebirth/The_Beast_of_Darkness.png" },
+        { "name": "Death and Devourers", "image": "images/Sanctum of Rebirth/Death_and_Devourers.png" },
         { "name": "Neffie", "image": "images/Sanctum of Rebirth/Neffie.png" }
     ],
     
@@ -500,15 +500,15 @@ const bosses = {
         { "name": "Eldritch Crossbow Mechanism", "image": "images/The Shadow Reef/Eldritch_crossbow_mechanism.png" },
         { "name": "Eldritch Crossbow Stock", "image": "images/The Shadow Reef/Eldritch_crossbow_stock.png" },
         { "name": "Black Stone Heart", "image": "images/The Shadow Reef/Black_stone_heart.png" },
-        { "name": "The Last Offering", "image": "images/The Shadow Reef/The_last_offering.png" },
-        { "name": "Kranon's Ancient Journal", "image": "images/The Shadow Reef/Kranon's_ancient_journal.png" },
+        { "name": "The Last Offering", "image": "images/The Shadow Reef/The_Last_Offering.png" },
+        { "name": "Kranon's Ancient Journal", "image": "images/The Shadow Reef/Kranon's_Ancient_Journal.png" },
         { "name": "Ambi", "image": "images/The Shadow Reef/Ambi.png" }
     ],
     
     "Solak": [
         { "name": "Torn Grimoire Page", "image": "images/Solak/Torn_grimoire_page.png" },
         { "name": "Blightbound Crossbow", "image": "images/Solak/Blightbound_crossbow.png" },
-        { "name": "Off-Hand Blightbound Crossbow", "image": "images/Solak/Off-hand_blightbound_crossbow.png" },
+        { "name": "Off-Hand Blightbound Crossbow", "image": "images/Solak/Off-hand_Blightbound_crossbow.png" },
         { "name": "Erethdor's Grimoire", "image": "images/Solak/Erethdor's_grimoire.png" },
         { "name": "Purple Mushroom", "image": "images/Solak/Purple_mushroom.png" },
         { "name": "Merethiel's Stave", "image": "images/Solak/Merethiel's_stave.png" },
@@ -519,30 +519,30 @@ const bosses = {
         { "name": "Orb of Pure Anima", "image": "images/Telos/Orb_of_pure_anima.png" },
         { "name": "Orb of Corrupted Anima", "image": "images/Telos/Orb_of_corrupted_anima.png" },
         { "name": "Orb of Volcanic Anima", "image": "images/Telos/Orb_of_volcanic_anima.png" },
-        { "name": "Dormant Seren Godbow", "image": "images/Telos/Dormant_seren_godbow.png" },
-        { "name": "Dormant Staff of Sliske", "image": "images/Telos/Dormant_staff_of_sliske.png" },
-        { "name": "Dormant Zaros Godsword", "image": "images/Telos/Dormant_zaros_godsword.png" },
+        { "name": "Dormant Seren Godbow", "image": "images/Telos/Dormant_Seren_godbow.png" },
+        { "name": "Dormant Staff of Sliske", "image": "images/Telos/Dormant_staff_of_Sliske.png" },
+        { "name": "Dormant Zaros Godsword", "image": "images/Telos/Dormant_Zaros_godsword.png" },
         { "name": "Reprisal Ability Codex", "image": "images/Telos/Reprisal_ability_codex.png" },
         { "name": "Tess", "image": "images/Telos/Tess.png" }
     ],    
     
     "Temple of Aminishi": [
         { "name": "Fishy Treat", "image": "images/Temple of Aminishi/Fishy_treat.png" },
-        { "name": "Crassian Allegiance", "image": "images/Temple of Aminishi/Crassian_allegiance.png" },
+        { "name": "Crassian Allegiance", "image": "images/Temple of Aminishi/Crassian_Allegiance.png" },
         { "name": "Masuta's Warspear", "image": "images/Temple of Aminishi/Masuta's_warspear.png" },
-        { "name": "Himiko's Vision", "image": "images/Temple of Aminishi/Himiko's_vision.png" },
+        { "name": "Himiko's Vision", "image": "images/Temple of Aminishi/Himiko's_Vision.png" },
         { "name": "Ancient Scale", "image": "images/Temple of Aminishi/Ancient_scale.png" },
         { "name": "Kuroryu", "image": "images/Temple of Aminishi/Kuroryu.png" }
     ],
     
     "The Twin Furies": [
-        { "name": "Crest of Zamorak", "image": "images/The Twin Furies/Crest_of_zamorak.png" },
+        { "name": "Crest of Zamorak", "image": "images/The Twin Furies/Crest_of_Zamorak.png" },
         { "name": "Dormant Anima Core Helm", "image": "images/The Twin Furies/Dormant_anima_core_helm.png" },
         { "name": "Dormant Anima Core Body", "image": "images/The Twin Furies/Dormant_anima_core_body.png" },
         { "name": "Dormant Anima Core Legs", "image": "images/The Twin Furies/Dormant_anima_core_legs.png" },
         { "name": "Zamorakian Essence", "image": "images/The Twin Furies/Zamorakian_essence.png" },
-        { "name": "Blade of Nymora", "image": "images/The Twin Furies/Blade_of_nymora.png" },
-        { "name": "Blade of Avaryss", "image": "images/The Twin Furies/Blade_of_avaryss.png" },
+        { "name": "Blade of Nymora", "image": "images/The Twin Furies/Blade_of_Nymora.png" },
+        { "name": "Blade of Avaryss", "image": "images/The Twin Furies/Blade_of_Avaryss.png" },
         { "name": "Nylessa", "image": "images/The Twin Furies/Nylessa.png" },
         { "name": "Ava", "image": "images/The Twin Furies/Ava.png" }
     ],
@@ -552,27 +552,27 @@ const bosses = {
         { "name": "Magma Core", "image": "images/TzKal-Zuk/Magma_core.png" },
         { "name": "Ancient Hilt", "image": "images/TzKal-Zuk/Ancient_hilt.png" },
         { "name": "Igneous Stone", "image": "images/TzKal-Zuk/Igneous_stone.png" },
-        { "name": "Magma Tempest Ability Codex", "image": "images/TzKal-Zuk/Magma_tempest_ability_codex.png" },
-        { "name": "Scripture of Ful", "image": "images/TzKal-Zuk/Scripture_of_ful.png" },
+        { "name": "Magma Tempest Ability Codex", "image": "images/TzKal-Zuk/Magma_Tempest_ability_codex.png" },
+        { "name": "Scripture of Ful", "image": "images/TzKal-Zuk/Scripture_of_Ful.png" },
         { "name": "Little Zuk", "image": "images/TzKal-Zuk/Little_zuk.png" }
     ],
     
     "TzTok-Jad and Har-Aken": [
         { "name": "Fire Cape", "image": "images/TzTok-Jad and Har-Aken/Fire_cape.png" },
-        { "name": "TokHaar-Kal-Ket", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-kal-ket.png" },
-        { "name": "TokHaar-Kal-Mej", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-kal-mej.png" },
-        { "name": "TokHaar-Kal-Xil", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-kal-xil.png" },
-        { "name": "TokHaar-Kal-Mor", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-kal-mor.png" },
+        { "name": "TokHaar-Kal-Ket", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Ket.png" },
+        { "name": "TokHaar-Kal-Mej", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Mej.png" },
+        { "name": "TokHaar-Kal-Xil", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Xil.png" },
+        { "name": "TokHaar-Kal-Mor", "image": "images/TzTok-Jad and Har-Aken/Tokhaar-Kal-Mor.png" },
         { "name": "Shrimpy", "image": "images/TzTok-Jad and Har-Aken/Shrimpy.png" }
     ],    
     
     "Vindicta & Gorvek": [
-        { "name": "Crest of Zaros", "image": "images/Vindicta and Gorvek/Crest_of_zaros.png" },
+        { "name": "Crest of Zaros", "image": "images/Vindicta and Gorvek/Crest_of_Zaros.png" },
         { "name": "Dormant Anima Core Helm", "image": "images/Vindicta and Gorvek/Dormant_anima_core_helm.png" },
         { "name": "Dormant Anima Core Body", "image": "images/Vindicta and Gorvek/Dormant_anima_core_body.png" },
         { "name": "Dormant Anima Core Legs", "image": "images/Vindicta and Gorvek/Dormant_anima_core_legs.png" },
         { "name": "Zarosian Essence", "image": "images/Vindicta and Gorvek/Zarosian_essence.png" },
-        { "name": "Dragon Rider Lance", "image": "images/Vindicta and Gorvek/Dragon_rider_lance.png" },
+        { "name": "Dragon Rider Lance", "image": "images/Vindicta and Gorvek/Dragon_Rider_lance.png" },
         { "name": "Vindiddy", "image": "images/Vindicta and Gorvek/Vindiddy.png" },
         { "name": "Rawrvek", "image": "images/Vindicta and Gorvek/Rawrvek.png" }
     ],
@@ -592,24 +592,24 @@ const bosses = {
     ],
     
     "Zamorak": [
-        { "name": "Chaos Roar Ability Codex", "image": "images/Zamorak/Chaos_roar_ability_codex.png" },
-        { "name": "Top of the Last Guardian's Bow", "image": "images/Zamorak/Top_of_the_last_guardian's_bow.png" },
+        { "name": "Chaos Roar Ability Codex", "image": "images/Zamorak/Chaos_Roar_ability_codex.png" },
+        { "name": "Top of the Last Guardian's Bow", "image": "images/Zamorak/Top_of_the_Last_Guardian's_bow.png" },
         { "name": "Divine Bowstring", "image": "images/Zamorak/Divine_bowstring.png" },
-        { "name": "Bottom of the Last Guardian's Bow", "image": "images/Zamorak/Bottom_of_the_last_guardian's_bow.png" },
+        { "name": "Bottom of the Last Guardian's Bow", "image": "images/Zamorak/Bottom_of_the_Last_Guardian's_bow.png" },
         { "name": "Vestments of Havoc Robe Top", "image": "images/Zamorak/Vestments_of_havoc_robe_top.png" },
         { "name": "Vestments of Havoc Robe Bottom", "image": "images/Zamorak/Vestments_of_havoc_robe_bottom.png" },
         { "name": "Vestments of Havoc Hood", "image": "images/Zamorak/Vestments_of_havoc_hood.png" },
         { "name": "Vestments of Havoc Boots", "image": "images/Zamorak/Vestments_of_havoc_boots.png" },
         { "name": "Codex of Lost Knowledge", "image": "images/Zamorak/Codex_of_lost_knowledge.png" },
-        { "name": "Zammo the Rak", "image": "images/Zamorak/Zammo_the_rak.png" }
+        { "name": "Zammo the Rak", "image": "images/Zamorak/Zammo_the_Rak.png" }
     ],    
     
     "Zemouregal & Vorkath": [
         { name: "Vorkath's Spike", image: "images/Zemouregal and Vorkath/Vorkath's_spike.png" },
         { name: "Vorkath's Scale", image: "images/Zemouregal and Vorkath/Vorkath's_scale.png" },
-        { name: "Invoke Lord of Bones Incantation Codex", image: "images/Zemouregal and Vorkath/Invoke_lord_of_bones_incantation_codex.png" },
+        { name: "Invoke Lord of Bones Incantation Codex", image: "images/Zemouregal and Vorkath/Invoke_Lord_of_Bones_incantation_codex.png" },
         { name: "Zemouregal's Nexus", image: "images/Zemouregal and Vorkath/Zemouregal's_nexus.png" },
-        { name: "Vorki", image: "images/Zemouregal and Vorkath/vorki.png" }
+        { name: "Vorki", image: "images/Zemouregal and Vorkath/Vorki.png" }
     ]
     
 };
