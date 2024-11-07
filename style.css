@@ -196,3 +196,58 @@ h1, h2 {
     margin-top: 20px;
     text-align: left;
 }
+
+/* Dashboard Styles */
+#dashboard {
+    display: flex;  /* Use flexbox */
+    flex-direction: column;  /* Stack the content vertically */
+    justify-content: center;  /* Center the content vertically */
+    align-items: center;  /* Center the content horizontally */
+    text-align: center;  /* Center text */
+    font-size: 16px;  /* Change the text size */
+    color: #ffcc00;  /* Set the text color (dark gray as an example) */
+    padding: 20px;  /* Add some padding */
+    border-radius: 10px;  /* Optional: Add rounded corners for a better appearance */
+    width: 80%;  /* Adjust the width of the dashboard (you can change this value) */
+    max-width: 600px;  /* Optional: Set a maximum width for better control */
+    margin: 0 auto;  /* Center it horizontally within the parent */
+}
+
+#dashboard p {
+    margin-bottom: 10px;  /* Add space between each paragraph */
+}
+
+#exportImport {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#exportImport button {
+    background-color: #2b3a42; /* Dark background color to match your theme */
+    color: #ffcc00; /* Gold color for the text */
+    border: 1px solid #ffcc00; /* Gold border */
+    padding: 10px 20px; /* More padding for a larger button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-weight: bold; /* Bold text for visibility */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin: 5px;
+}
+
+#exportImport button:hover {
+    background-color: #ffcc00; /* Gold background on hover */
+    color: #2b3a42; /* Dark text on hover for contrast */
+}
+
+#importInput {
+    width: 200px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ffcc00; /* Gold border to match buttons */
+    border-radius: 5px;
+    color: #2b3a42; /* Dark color for input text */
+    background-color: #e5e6eb; /* Light background to contrast with dark theme */
+    margin: 5px;
+    text-align: center; /* Center-align text */
+}

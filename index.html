@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="header">Boss Collection Log</h1>
+    <h1 class="header">Boss Collection Log</h1>   
+
     <!-- Tracker display -->
     <div id="tracker">Total Items Obtained: 0 / 0</div>
     <div id="app">
@@ -20,7 +21,6 @@
             </div>
         </div>
 
-        <!-- Section to display unique drops for the selected boss -->
         <div id="dropList">
             <h2 id="bossHeader">Unique Drops</h2>
             <span id="selectedCounter" class="selected-counter">Obtained Items: 0 / 0</span>
@@ -28,7 +28,19 @@
                 <!-- Unique drop items will appear here dynamically -->
             </ul>
         </div>
-    </div>
+        
+        <!-- Dashboard Section -->
+        <div id="dashboard">
+            <p>Total Items Obtained: <span id="totalObtained">0 / 0</span></p>
+            <p>Boss Logs Completed: <span id="completedLogs">0</span></p>
+            <p>Percentage Complete: <span id="completionPercentage">0%</span></p>
+            <div id="exportImport">
+                <button id="exportBtn">Export Progress</button>
+                <input type="text" id="importInput" placeholder="Paste hash here">
+                <button id="importBtn">Import Progress</button>
+            </div>
+        </div>     
+
 
     <script type="module" src="bossesData.js"></script>
     <script type="module" src="script.js"></script>

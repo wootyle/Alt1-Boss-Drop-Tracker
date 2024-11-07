@@ -1,27 +1,46 @@
 import { bosses } from './bossesData.js';
 
-// Initialize display area
-const bossList = document.getElementById("bossList");  // Sidebar boss list
+const bossList = document.getElementById("bossList");
 const dropList = document.getElementById("drops");
-const selectedCounter = document.getElementById("selectedCounter"); // Counter for selected items
+const selectedCounter = document.getElementById("selectedCounter");
+const obtainedItems = {};  // Global object to track obtained items across bosses
+
+// Dashboard elements
+const totalObtainedEl = document.getElementById("totalObtained");
+const completedLogsEl = document.getElementById("completedLogs");
+const completionPercentageEl = document.getElementById("completionPercentage");
 
 function populateBossList() {
-    console.log("Populating boss list..."); // Debug line
+    // Create Dashboard item at the top
+    const dashboardItem = document.createElement("li");
+    dashboardItem.textContent = "Dashboard";
+    dashboardItem.className = "boss-item dashboard-item";  // Assign a class for potential styling
 
+    dashboardItem.onclick = () => {
+        document.querySelectorAll(".boss-item").forEach(item => item.classList.remove("selected"));
+        dashboardItem.classList.add("selected");
+
+        // Hide drop list and show dashboard
+        document.getElementById("dropList").style.display = "none";
+        document.getElementById("dashboard").style.display = "block";
+        updateTotalTracker();  // Refresh stats in case items have changed
+    };
+
+    bossList.appendChild(dashboardItem);
+
+    // Add remaining bosses
     for (let boss in bosses) {
         let listItem = document.createElement("li");
         listItem.textContent = boss;
-        listItem.className = "boss-item";  // Style this class in CSS for sidebar items
+        listItem.className = "boss-item";
 
-        // Add a click event listener for each boss
         listItem.onclick = () => {
-            // Remove 'selected' class from all boss items
             document.querySelectorAll(".boss-item").forEach(item => item.classList.remove("selected"));
-
-            // Add 'selected' class to the clicked boss item
             listItem.classList.add("selected");
 
-            // Display drops for the selected boss
+            // Show drop list and hide dashboard
+            document.getElementById("dropList").style.display = "block";
+            document.getElementById("dashboard").style.display = "none";
             displayDrops(boss);
         };
         
@@ -31,111 +50,171 @@ function populateBossList() {
 
 function updateTotalTracker() {
     let totalItems = 0;
-    let obtainedItems = 0;
+    let obtainedItemsCount = 0;
+    let completedLogsCount = 0;
+    let totalLogsCount = 0;  // Variable to keep track of total logs
 
-    // Loop through each boss and their items
+    // Iterate through each boss to count total and obtained items
     for (let boss in bosses) {
-        const savedStatus = loadDropStatus(boss); // Load saved status for each boss
+        totalLogsCount++;  // Increment total logs count for each boss
+        let bossCompleted = true;  // Assume boss log is complete initially
+
         bosses[boss].forEach(drop => {
             totalItems++;
-            if (savedStatus[drop.name]) {
-                obtainedItems++;
+            if (obtainedItems[drop.name]) {
+                obtainedItemsCount++;
+            } else {
+                bossCompleted = false;  // Mark boss as incomplete if any drop is missing
             }
         });
+
+        // Increment completedLogsCount if the entire boss log is obtained
+        if (bossCompleted) completedLogsCount++;
     }
 
-    // Update the tracker display
-    const tracker = document.getElementById("tracker");
-    tracker.textContent = `Total Items Obtained: ${obtainedItems} / ${totalItems}`;
+    // Update overall tracker for obtained items
+    const tracker = document.getElementById('tracker');
+    tracker.textContent = `Total Items Obtained: ${obtainedItemsCount} / ${totalItems}`;
+
+    // Update dashboard stats
+    totalObtainedEl.textContent = `${obtainedItemsCount} / ${totalItems}`;
+    completedLogsEl.textContent = `${completedLogsCount} / ${totalLogsCount}`;  // Show completed logs out of total logs
+
+    // Calculate and update the completion percentage
+    const completionPercentage = totalItems > 0 ? ((obtainedItemsCount / totalItems) * 100).toFixed(2) : 0;
+    completionPercentageEl.textContent = `${completionPercentage}%`;
 }
 
-// Load saved drop status from localStorage
-function loadDropStatus(boss) {
-    const savedStatus = JSON.parse(localStorage.getItem(boss)) || {};
-    return savedStatus;
+// Load obtained items from localStorage at start
+function loadObtainedItems() {
+    const savedItems = JSON.parse(localStorage.getItem("obtainedItems")) || {};
+    Object.assign(obtainedItems, savedItems);
 }
 
-// Save drop status to localStorage
-function saveDropStatus(boss, drop, obtained) {
-    let savedStatus = JSON.parse(localStorage.getItem(boss)) || {};
-    savedStatus[drop] = obtained;
-    localStorage.setItem(boss, JSON.stringify(savedStatus));
+// Save obtained items to localStorage
+function saveObtainedItems() {
+    localStorage.setItem("obtainedItems", JSON.stringify(obtainedItems));
 }
 
-// Display drops with images for the selected boss
+// Display drops for the selected boss
 function displayDrops(boss) {
-    console.log(`Displaying drops for boss: ${boss}`); // Debug line
-    dropList.innerHTML = "";  // Clear previous list of drops
-    
-    // Update the h2 element with the boss name
+    dropList.innerHTML = "";
     const bossHeader = document.getElementById("bossHeader");
-    bossHeader.textContent = boss; // Set the header text
+    bossHeader.textContent = boss;
 
     if (bosses[boss]) {
-        const savedStatus = loadDropStatus(boss);
         bosses[boss].forEach(drop => {
             let dropItem = document.createElement("li");
             dropItem.className = "drop-item";
+            dropItem.setAttribute("data-item-name", drop.name);  // Unique identifier
 
-            // Add the image element
             let img = document.createElement("img");
             img.src = drop.image;
             img.alt = drop.name;
-            img.className = "drop-image greyed-out";  // Start greyed out
+            img.className = "drop-image";
             dropItem.appendChild(img);
 
-            // Create a span for the text (for mouseover display)
             let text = document.createElement("span");
             text.className = "drop-text";
             text.textContent = drop.name;
             dropItem.appendChild(text);
 
-            // Apply 'obtained' status if previously saved
-            if (savedStatus[drop.name]) {
+            // Apply 'obtained' status if found in global obtainedItems
+            if (obtainedItems[drop.name]) {
                 dropItem.classList.add("obtained");
-                img.classList.remove("greyed-out"); // Remove greyed-out if previously obtained
+                img.classList.remove("greyed-out");
+            } else {
+                img.classList.add("greyed-out");
             }
 
-            // Toggle status on click
             dropItem.onclick = () => {
-                toggleDropStatus(dropItem, boss, drop.name);
-                updateSelectedCounter(); // Update the counter when an item is clicked
-                updateTotalTracker(); // Update the total tracker when status changes
+                toggleDropStatus(dropItem, drop.name);
+                updateSelectedCounter();
+                updateTotalTracker();
             };
+
             dropList.appendChild(dropItem);
         });
 
-        // Update the counter for the current boss after displaying drops
-        updateSelectedCounter(); // Ensure the counter reflects the current boss's items
+        updateSelectedCounter();
     }
 }
 
-// Function to update the selected items counter
 function updateSelectedCounter() {
-    // Count all obtained items for the current boss
     const obtainedItems = document.querySelectorAll('.drop-item.obtained').length;
-    const totalItems = document.querySelectorAll('.drop-item').length; // Total items for the current boss
-    selectedCounter.textContent = `Obtained Items: ${obtainedItems} / ${totalItems}`; // Update the counter display
+    const totalItems = document.querySelectorAll('.drop-item').length;
+    selectedCounter.textContent = `Obtained Items: ${obtainedItems} / ${totalItems}`;
 }
 
-// Toggle drop status and update local storage and tracker
-function toggleDropStatus(item, boss, drop) {
-    item.classList.toggle("obtained");  // Toggle 'obtained' class
+function toggleDropStatus(item, drop) {
+    item.classList.toggle("obtained");
     const img = item.querySelector("img");
-    img.classList.toggle("greyed-out", !item.classList.contains("obtained")); // Update image greying
+    img.classList.toggle("greyed-out", !item.classList.contains("obtained"));
 
-    const obtained = item.classList.contains("obtained");
-    saveDropStatus(boss, drop, obtained);
-
-    // Update the total tracker
-    updateTotalTracker();
+    obtainedItems[drop] = item.classList.contains("obtained");
+    saveObtainedItems();
+    updateAllBossLogs();
 }
 
-// Initialize the app
+function updateAllBossLogs() {
+    const allDropItems = document.querySelectorAll('.drop-item');
+    allDropItems.forEach(item => {
+        const itemName = item.getAttribute('data-item-name');
+        const img = item.querySelector("img");
+        
+        if (obtainedItems[itemName]) {
+            item.classList.add("obtained");
+            img.classList.remove("greyed-out");
+        } else {
+            item.classList.remove("obtained");
+            img.classList.add("greyed-out");
+        }
+    });
+}
+
 function init() {
-    populateBossList();  // Populate sidebar list
-    updateTotalTracker();  // Initialize total tracker on load
+    loadObtainedItems();  // Load obtained state from localStorage
+    populateBossList();
+    updateTotalTracker(); // Initialize total tracker on load
+
+    // Open the dashboard by default
+    const dashboardItem = document.querySelector('.dashboard-item');
+    if (dashboardItem) {
+        dashboardItem.click();  // Simulate a click on the Dashboard to display it on load
+    }
 }
 
-// Run the init function when the script loads
+// Function to export progress as a hash
+function exportProgress() {
+    const obtainedItemsJson = JSON.stringify(obtainedItems);
+    const hash = btoa(obtainedItemsJson); // Convert JSON to Base64
+    alert(`Your progress hash: ${hash}`); // Display or let the user copy the hash
+}
+
+// Function to import progress from a hash
+function importProgress() {
+    const hash = document.getElementById('importInput').value.trim();
+    if (!hash) {
+        alert("Please enter a valid hash.");
+        return;
+    }
+
+    try {
+        const obtainedItemsJson = atob(hash); // Decode from Base64
+        const importedItems = JSON.parse(obtainedItemsJson);
+        
+        // Validate and apply the imported items
+        Object.assign(obtainedItems, importedItems);
+        saveObtainedItems();  // Save to localStorage
+        updateTotalTracker(); // Update UI with imported progress
+        alert("Progress successfully imported!");
+    } catch (error) {
+        alert("Invalid hash. Please ensure it was copied correctly.");
+    }
+}
+
+// Attach event listeners for export and import
+document.getElementById('exportBtn').onclick = exportProgress;
+document.getElementById('importBtn').onclick = importProgress;
+
 init();
