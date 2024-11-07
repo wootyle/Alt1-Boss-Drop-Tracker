@@ -1,7 +1,7 @@
 {
-    "appname": "Boss Drop Tracker",
-    "description": "Track boss drops for RuneScape 3",
-    "url": "https://wootyle.github.io/Alt1-Boss-Drop-Tracker/index.html",
-    "icon": "images/icon.png",
-    "categories": ["tools", "tracker"]
-  }
+  "appname": "Boss Drop Tracker",
+  "description": "Track boss drops for RuneScape 3",
+  "url": "https://wootyle.github.io/Alt1-Boss-Drop-Tracker/index.html",
+  "icon": "https://wootyle.github.io/Alt1-Boss-Drop-Tracker/images/icon.png",
+  "categories": ["tools", "tracker"]
+}
