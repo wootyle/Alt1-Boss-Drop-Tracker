@@ -3,7 +3,7 @@
   "description": "Track Boss Logs",
   "appUrl": "./index.html",
   "configUrl": "./appconfig.json",
-  "iconUrl": "./images/icon.png",
+  "iconUrl": "./images/logo.png",
   "defaultWidth": 665,
   "defaultHeight": 603,
   "minWidth": 250,
